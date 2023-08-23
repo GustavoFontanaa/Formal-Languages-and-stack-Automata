@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Derivação de Gramática</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Derivação de Gramática</h1>
+        <div class="input-section">
+            <label for="grammarInput" class="input-label">Gramática (no formato JSON):</label>
+            <textarea id="grammarInput" class="grammar-textarea" rows="16" cols="50"></textarea>
+        </div>
+
+        <div class="file-section">
+            <input type="file" id="fileInput" class="file-input">
+            <button id="loadButton" class="load-button">Carregar Gramática</button>
+        </div>
+
+        <button id="generateButton" class="generate-button">Gerar Sentença</button>
+        <div class="derivation-process" id="derivationProcess"></div>
+        <p id="result" class="sentence-result"></p>
+    </div>
+</body>
+
+</html>
