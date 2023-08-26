@@ -55,7 +55,6 @@ function generateAndDisplaySentence() {
     !grammar['S']
   ) {
     resultElement.innerHTML = 'Entrada inválida.';
-    return;
   }
 
   let stack = [grammar['S']];
